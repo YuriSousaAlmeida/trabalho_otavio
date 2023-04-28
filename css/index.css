@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: #f2f2f2;
+    color: #000000;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #000;
+}
+
+.headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+#navbar {
+    width: 100%;
+    background: #0d0d0d;
+    color: #eee;
+    height: 80px;
+    position: fixed;
+}
+
+#navbar-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navbar-items li {
+    padding: 10px;
+}
+
+#Home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    background-color: #011526;
+}
+
+#Home-container {
+    text-align: center;
+}
+
+#Home-container h2 {
+    font-size: 3.5rem;
+}
+
+#Home-container p {
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+
+#Contatos {
+    width: 100%;
+    background:#053547;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+#Contatos-container {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.contatin{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+#Servicos {
+    width: 100%;
+    background: #011526;
+    color: #eee;
+    padding: 50px;
+}
+
+#Servicos-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+}
+
+.Servicos {
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.Servicos-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#Servicos {
+    width: 100%;
+    padding: 50px;
+    
+}
+
+#Servicos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#items {
+    width: 650px;
+}
+
+#items .item {
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.Portfolio {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #ffffff;
+    color: #000;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#Portfolio {
+    width: 100%;
+    background: #053547;
+    color: #eee;
+    padding: 50px;
+}
+
+#Portfolio-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Portfolio .Portfolio-image {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+#footer {
+    background-color: #000;
+    color: #eee;
+    padding: 30px;
+    text-align: center;   
+}

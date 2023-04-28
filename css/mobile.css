@@ -1,0 +1,63 @@
+#navbar {
+    height: 180px;
+}
+
+#navbar-container {
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#navbar-items li:nth-child(2) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+/* Home */
+#Home-container { 
+    padding: 40px;
+}
+
+/* Contatos */
+#Contatos-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contatin {
+    width: 50%;
+}
+
+/* Servicos */
+#Servicos-container {
+    grid-template-columns: 1fr;
+}
+
+#Servicos-container .Servicos:nth-child(2) {
+    margin: 15px 0;
+}
+
+/* Servicos */
+#Servicos-container {
+    flex-direction: column;
+}
+
+#items {
+    width: 90%;
+}
+
+.item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Portfolio */
+.Portfolio {
+    flex-direction: column;
+    text-align: center;
+}
